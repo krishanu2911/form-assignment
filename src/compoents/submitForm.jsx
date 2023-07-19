@@ -105,7 +105,7 @@ export const SubmitForm = () => {
       </button>
     </div>
 
-    <div id="small-modal" tabindex="-1" class={`fixed flex justify-center items-center ${!showModal && "hidden" } z-50  w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%)] max-h-full overlay`}>
+    <div id="small-modal" tabindex="-1" class={`fixed flex justify-center items-center ${!showModal && "hidden" } top-0 left-0 right-0 bottom-0 z-50  w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0   overlay`}>
     <div class="relative w-full max-w-md max-h-full">
         <div className="bg-white rounded-3xl flex flex-col justify-center items-center py-5 gap-4">
           <img className=" mt-6" src="/done.svg" />
