@@ -1,6 +1,6 @@
 # form-assignment
 
-(Live Link)(https://form-assignment-nu.vercel.app/)
+[Live Link](https://form-assignment-nu.vercel.app/)
 
 ## tech used: 
 - React
