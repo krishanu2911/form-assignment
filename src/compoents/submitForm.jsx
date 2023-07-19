@@ -99,7 +99,7 @@ export const SubmitForm = () => {
       <button
       onClick={toggleModal}
       disabled={fileContent === ""}
-        className="disabled:cursor-not-allowed w-1/4 flex items-center justify-center gap-4 rounded-full py-4 md:px-20 px-10 bg-[#3063c8] disabled:bg-[#3063c890] text-white"
+        className="disabled:cursor-not-allowed md:w-fit w-full flex items-center justify-center gap-4 rounded-full py-4 md:px-20 px-10 bg-[#3063c8] disabled:bg-[#3063c890] text-white"
       >
       Submit 
       </button>
